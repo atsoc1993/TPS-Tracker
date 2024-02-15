@@ -1,7 +1,12 @@
 from algosdk.v2client import algod
 import time
 
-algod_token = ''
+'''
+DEPENDING ON YOUR PROCESSING SPEED, BLOCKS MIGHT BE SKIPPED AND SLEEP TIME SHOULD BE ADJUSTED
+'''
+
+#Include your node token and port below
+algod_token = '' 
 algod_port = ''
 
 last_block_time_stamp = 0
